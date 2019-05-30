@@ -1,0 +1,21 @@
+author	nauth	nrev	vers	date	index	status	topic	pages	doi	short_title
+Chen	3	5	1	2016-06-20	TRUE	AAAAA	RNA	49	10.12688/f1000research.8987	From reads to genes to pathways
+Chen	3	5	2	2016-08-02	TRUE	AAA--	RNA	49	10.12688/f1000research.8987	From reads to genes to pathways
+Lun	2	3	1	2015-10-16	TRUE	ARA	ChIP	47	10.12688/f1000research.7016	From reads to regions
+Lun	2	3	2	2016-01-11	TRUE	---	ChIP	47	10.12688/f1000research.7016	From reads to regions
+Thurnherr	4	2	1	2016-08-12	FALSE	RR	variant	13	10.12688/f1000research.9357	Genomic variant annotation workflow
+Thurnherr	4	2	2	2016-10-24	TRUE	AA	variant	13	10.12688/f1000research.9357	Genomic variant annotation workflow
+Lun	3	5	1	2016-08-31	FALSE	RRRRR	scRNA	69	10.12688/f1000research.9501	Low-level analysis of single-cell
+Lun	3	5	2	2016-10-31	TRUE	AAA-R	scRNA	69	10.12688/f1000research.9501	Low-level analysis of single-cell
+Callahan	5	3	1	2016-06-24	TRUE	AAA	microbiome	49	10.12688/f1000research.8986	Microbiome Data Analysis
+Callahan	5	3	2	2016-11-02	TRUE	A--	microbiome	49	10.12688/f1000research.8986	Microbiome Data Analysis
+Love	4	2	1	2015-10-14	TRUE	AA	RNA	45	10.12688/f1000research.7035	RNA-seq workflow: gene-level
+Love	4	2	2	2016-11-17	TRUE	--	RNA	45	10.12688/f1000research.7035	RNA-seq workflow: gene-level
+Turaga	7	2	1	2016-11-24	TRUE	AR	Bioc	13	10.12688/f1000research.9821	R/Bioconductor tool integration in Galaxy
+Silva	7	3	1	2016-06-29	FALSE	RA-	Bioc	60	10.12688/f1000research.8923	TCGA Workflow
+Silva	7	3	2	2016-12-28	TRUE	--R	Bioc	60	10.12688/f1000research.8923	TCGA Workflow
+Maksimovic	3	4	1	2016-06-08	TRUE	ARAA	methyl	53	10.12688/f1000research.8839	Analysing methylation array data
+Maksimovic	3	4	2	2016-07-26	TRUE	AA--	methyl	53	10.12688/f1000research.8839	Analysing methylation array data
+Maksimovic	3	4	3	2017-04-05	TRUE	----	methyl	53	10.12688/f1000research.8839	Analysing methylation array data
+Perraudeau	5	3	1	2017-07-21	TRUE	RRA	scRNA	28	10.12688/f1000research.12122	Single-cell RNA sequencing
+Collado-Torres	3	3	1	2017-08-24	TRUE	RRA	RNA	44	10.12688/f1000research.12223	Recount workflow
