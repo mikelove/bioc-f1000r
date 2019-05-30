@@ -9,7 +9,7 @@ dois <- dat %>%
 dat <- dat %>%
   mutate(number=factor(as.integer(factor(doi,levels=dois))))
 dat <- dat %>%
-  mutate(topic=factor(topic, levels=c("Bioc","RNA","scRNA","ChIP","methyl","protein","microbiome","variant")))
+  mutate(topic=factor(topic, levels=c("Bioc","RNA","sc","ChIP","methyl","protein","microb","variant")))
 rgb2 <- function(x,y,z) rgb(x,y,z,maxColorValue=255)
 cols <- c("black",
           "grey50",
@@ -23,7 +23,7 @@ ggplot(dat, aes(date, number, col=topic, shape=index, group=number)) +
   geom_line(show.legend=FALSE) + geom_point(fill="white", size=4, stroke=1) + 
   scale_shape_manual(values=c(21,19)) +
   scale_color_manual(values=cols) + 
-  geom_label(data=dat[dat$vers==1,], aes(date, number, label=author),
+  geom_text(data=dat[dat$vers==1,], aes(date, number, label=author),
              hjust="right", nudge_x=-30, show.legend=FALSE) +
   theme_bw() +
-  xlim(as.Date(c("2015-06-01","2018-06-01")))
+  xlim(as.Date(c("2015-06-01","2019-01-01")))

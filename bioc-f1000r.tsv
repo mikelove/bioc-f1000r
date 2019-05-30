@@ -5,10 +5,10 @@ Lun	2	3	1	2015-10-16	TRUE	ARA	ChIP	47	10.12688/f1000research.7016	From reads to 
 Lun	2	3	2	2016-01-11	TRUE	---	ChIP	47	10.12688/f1000research.7016	From reads to regions
 Thurnherr	4	2	1	2016-08-12	FALSE	RR	variant	13	10.12688/f1000research.9357	Genomic variant annotation workflow
 Thurnherr	4	2	2	2016-10-24	TRUE	AA	variant	13	10.12688/f1000research.9357	Genomic variant annotation workflow
-Lun	3	5	1	2016-08-31	FALSE	RRRRR	scRNA	69	10.12688/f1000research.9501	Low-level analysis of single-cell
-Lun	3	5	2	2016-10-31	TRUE	AAA-R	scRNA	69	10.12688/f1000research.9501	Low-level analysis of single-cell
-Callahan	5	3	1	2016-06-24	TRUE	AAA	microbiome	49	10.12688/f1000research.8986	Microbiome Data Analysis
-Callahan	5	3	2	2016-11-02	TRUE	A--	microbiome	49	10.12688/f1000research.8986	Microbiome Data Analysis
+Lun	3	5	1	2016-08-31	FALSE	RRRRR	sc	69	10.12688/f1000research.9501	Low-level analysis of single-cell
+Lun	3	5	2	2016-10-31	TRUE	AAA-R	sc	69	10.12688/f1000research.9501	Low-level analysis of single-cell
+Callahan	5	3	1	2016-06-24	TRUE	AAA	microb	49	10.12688/f1000research.8986	Microbiome Data Analysis
+Callahan	5	3	2	2016-11-02	TRUE	A--	microb	49	10.12688/f1000research.8986	Microbiome Data Analysis
 Love	4	2	1	2015-10-14	TRUE	AA	RNA	45	10.12688/f1000research.7035	RNA-seq workflow: gene-level
 Love	4	2	2	2016-11-17	TRUE	--	RNA	45	10.12688/f1000research.7035	RNA-seq workflow: gene-level
 Turaga	7	2	1	2016-11-24	TRUE	AR	Bioc	13	10.12688/f1000research.9821	R/Bioconductor tool integration in Galaxy
@@ -17,7 +17,7 @@ Silva	7	3	2	2016-12-28	TRUE	--R	Bioc	60	10.12688/f1000research.8923	TCGA Workflo
 Maksimovic	3	4	1	2016-06-08	TRUE	ARAA	methyl	53	10.12688/f1000research.8839	Analysing methylation array data
 Maksimovic	3	4	2	2016-07-26	TRUE	AA--	methyl	53	10.12688/f1000research.8839	Analysing methylation array data
 Maksimovic	3	4	3	2017-04-05	TRUE	----	methyl	53	10.12688/f1000research.8839	Analysing methylation array data
-Perraudeau	5	3	1	2017-07-21	TRUE	RRA	scRNA	28	10.12688/f1000research.12122	Single-cell RNA sequencing
+Perraudeau	5	3	1	2017-07-21	TRUE	RRA	sc	28	10.12688/f1000research.12122	Single-cell RNA sequencing
 Collado-Torres	3	3	1	2017-08-24	TRUE	RRA	RNA	44	10.12688/f1000research.12223	Recount workflow
 Alhamdoosh	6	4	1	2017-11-14	TRUE	RRRA	RNA	38	10.12688/f1000research.12544	Easy and efficient ensemble gene set
 Ferrero	1	2	1	2018-01-29	FALSE	RR	variant	33	10.12688/f1000research.13577	Interpret the function of disease variants
@@ -26,5 +26,31 @@ Jung	2	2	1	2017-11-07	FALSE	R-	protein	23	10.12688/f1000research.12947	PPInfer
 Jung	2	2	2	2017-12-08	FALSE	AR	protein	23	10.12688/f1000research.12947	PPInfer
 Jung	2	2	3	2018-03-12	FALSE	-R	protein	23	10.12688/f1000research.12947	PPInfer
 Smith	3	2	1	2018-04-06	FALSE	RR	Bioc	12	10.12688/f1000research.14399	Authoring Bioconductor workflows
-Steinbaugh	12	2	2017-11-08	FALSE	RR	RNA	35	10.12688/f1000research.12093	bcbioRNASeq
-Steinbaugh	12	2	2018-06-20	FALSE	AR	RNA	35	10.12688/f1000research.12093	bcbioRNASeq
+Steinbaugh	12	2	1	2017-11-08	FALSE	RR	RNA	35	10.12688/f1000research.12093	bcbioRNASeq
+Steinbaugh	12	2	2	2018-06-20	FALSE	AR	RNA	35	10.12688/f1000research.12093	bcbioRNASeq
+Breckels	4	2	1	2016-12-28	FALSE	AR	protein	51	10.12688/f1000research.10411	Analysing spatial proteomics
+Breckels	4	2	2	2018-07-03	TRUE	-A	protein	51	10.12688/f1000research.10411	Analysing spatial proteomics
+Klaus	2	2	1	2016-06-15	FALSE	RA	RNA	54	10.12688/f1000research.8967	Affymetric microarrays
+Klaus	2	2	2	2018-07-03	TRUE	AA	RNA	54	10.12688/f1000research.8967	Affymetric microarrays
+Brennan	1	2	1	2018-07-18	TRUE	AA	protein	15	10.12688/f1000research.14541	drawProteins
+Komljenovic	5	3	1	2016-11-23	FALSE	ARX	RNA	32	10.12688/f1000research.9973	BgeeDB
+Komljenovic	5	3	2	2018-08-07	TRUE	--A	RNA	32	10.12688/f1000research.9973	BgeeDB
+Hejazi	4	1	1	2018-09-07	FALSE	X	methyl	15	10.12688/f1000research.16047	methylvim
+Love	3	3	1	2018-06-27	FALSE	RRR	RNA	62	10.12688/f1000research.15398	Swimming downstream
+Love	3	3	2	2018-09-14	TRUE	RA-	RNA	62	10.12688/f1000research.15398	Swimming downstream
+Love	3	3	3	2018-10-01	TRUE	A-A	RNA	62	10.12688/f1000research.15398	Swimming downstream
+Chen	4	3	1	2017-11-28	TRUE	RAA	methyl	41	10.12688/f1000research.13196	Differential methylation analysis
+Chen	4	3	2	2018-10-08	TRUE	---	methyl	41	10.12688/f1000research.13196	Differential methylation analysis
+Law	7	3	1	2016-06-17	TRUE	AAA	RNA	29	10.12688/f1000research.9005	RNA-seq analysis is easy as 1-2-3
+Law	7	3	2	2016-11-30	TRUE	---	RNA	29	10.12688/f1000research.9005	RNA-seq analysis is easy as 1-2-3
+Law	7	3	3	2018-12-28	TRUE	---	RNA	29	10.12688/f1000research.9005	RNA-seq analysis is easy as 1-2-3
+Gopaulakrishnan	9	2	1	2019-01-07	TRUE	AA	Bioc	10	10.12688/f1000research.17518	restfulSE
+Kaleb	4	2	1	2019-01-10	FALSE	AR	Bioc	21	10.12688/f1000research.17548	Expanding the Orthologous Matrix
+Kaleb	4	2	2	2019-03-29	TRUE	AA	Bioc	21	10.12688/f1000research.17548	Expanding the Orthologous Matrix
+Crook	5	3	1	2019-04-11	TRUE	RRA	protein	32	10.12688/f1000research.18636	Bayesian analysis of spatial proteomics
+Stubbs	7	2	1	2019-02-05	FALSE	RR	protein	23	10.12688/f1000research.17976	TFutils
+Stubbs	7	2	2	2019-05-17	FALSE	A-	protein	23	10.12688/f1000research.17976	TFutils
+Su	6	0	1	2019-05-29	FALSE	-	Bioc	7	10.12688/f1000research.19410	BiocPkgTools
+Nowicka	9	2	1	2017-05-26	TRUE	AA	sc	53	10.12688/f1000research.11622	CyTOF
+Nowicka	9	2	2	2017-11-14	TRUE	--	sc	53	10.12688/f1000research.11622	CyTOF
+Nowicka	9	2	3	2019-05-24	TRUE	--	sc	53	10.12688/f1000research.11622	CyTOF
