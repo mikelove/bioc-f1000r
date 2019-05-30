@@ -12,6 +12,7 @@ dat <- dat %>%
   mutate(topic=factor(topic, levels=c("Bioc","RNA","scRNA","ChIP","methyl","protein","microbiome","variant")))
 rgb2 <- function(x,y,z) rgb(x,y,z,maxColorValue=255)
 cols <- c("black",
+          "grey50",
           rgb2(230,159,0),
           rgb2(86,180,233),
           rgb2(0,158,115),
@@ -25,4 +26,4 @@ ggplot(dat, aes(date, number, col=topic, shape=index, group=number)) +
   geom_label(data=dat[dat$vers==1,], aes(date, number, label=author),
              hjust="right", nudge_x=-30, show.legend=FALSE) +
   theme_bw() +
-  xlim(as.Date(c("2015-06-01","2018-01-01")))
+  xlim(as.Date(c("2015-06-01","2018-06-01")))

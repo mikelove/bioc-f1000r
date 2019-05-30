@@ -19,3 +19,12 @@ Maksimovic	3	4	2	2016-07-26	TRUE	AA--	methyl	53	10.12688/f1000research.8839	Anal
 Maksimovic	3	4	3	2017-04-05	TRUE	----	methyl	53	10.12688/f1000research.8839	Analysing methylation array data
 Perraudeau	5	3	1	2017-07-21	TRUE	RRA	scRNA	28	10.12688/f1000research.12122	Single-cell RNA sequencing
 Collado-Torres	3	3	1	2017-08-24	TRUE	RRA	RNA	44	10.12688/f1000research.12223	Recount workflow
+Alhamdoosh	6	4	1	2017-11-14	TRUE	RRRA	RNA	38	10.12688/f1000research.12544	Easy and efficient ensemble gene set
+Ferrero	1	2	1	2018-01-29	FALSE	RR	variant	33	10.12688/f1000research.13577	Interpret the function of disease variants
+Ferrero	1	2	2	2018-02-23	TRUE	AA	variant	33	10.12688/f1000research.13577	Interpret the function of disease variants
+Jung	2	2	1	2017-11-07	FALSE	R-	protein	23	10.12688/f1000research.12947	PPInfer
+Jung	2	2	2	2017-12-08	FALSE	AR	protein	23	10.12688/f1000research.12947	PPInfer
+Jung	2	2	3	2018-03-12	FALSE	-R	protein	23	10.12688/f1000research.12947	PPInfer
+Smith	3	2	1	2018-04-06	FALSE	RR	Bioc	12	10.12688/f1000research.14399	Authoring Bioconductor workflows
+Steinbaugh	12	2	2017-11-08	FALSE	RR	RNA	35	10.12688/f1000research.12093	bcbioRNASeq
+Steinbaugh	12	2	2018-06-20	FALSE	AR	RNA	35	10.12688/f1000research.12093	bcbioRNASeq
